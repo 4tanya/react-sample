@@ -1,0 +1,53 @@
+select, input {
+	outline: none;
+}
+
+body {
+	font: 12px verdana, sans-serif;
+}
+
+#app {
+	text-align: center;
+	margin: 30px auto;
+}
+
+.table {
+	border-collapse: collapse;
+	table-layout: fixed;
+	margin: 30px auto;
+}
+
+.table thead {
+	background-color: #EBF7FB;
+	text-transform: capitalize;
+	color: red;
+	font-weight: 700;
+}
+
+.table th, .table td {
+	border: solid 1px rgba(66, 66, 66, .8);
+	padding: .5em;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.form input {
+	color: purple;
+	font-weight: 700;
+	padding: 5px 10px;
+	border: solid 1px purple;
+	margin: 10px 5px;
+	cursor: pointer;
+	outline: none;
+}
+
+.form input[type="submit"]{
+	background-color:#EBF7FB;
+	color:red;
+}
+
+.form input[disabled] {
+	background-color: rgba(55, 55, 55, .4);
+	color:#EBF7FB;
+	cursor: no-drop;
+}
